@@ -1,5 +1,8 @@
 body{
+    font-family: "Albert Sans", sans-serif;
+
     background-color: black;
+
 }
 .container {
     max-width: 1600px;
@@ -14,11 +17,63 @@ body{
 
   .texto
   {
-    color: white;
+    color: rgb(255, 255, 255);
     margin-top: 100px;
     text-align: center;
   }
-  form{
+  .botones{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 80px;
+  }
+  form{ 
     margin-top: 50px;
     text-align: center;
   }
+
+  #generarPeli{
+    background-color: white;
+    display: flex;
+    align-items:center ;
+    margin: 100px;
+    border-radius: 25px;
+  }
+
+
+
+
+  .peli{
+    margin-left: 25%;
+    padding: 50px;
+    height: 300px;
+    width: 200px;
+  }
+
+  .descripcion{
+    margin-left: 50px;
+    margin-right: 100px;
+  }
+
+  input{
+    background: none;
+    border: solid 2px white ;
+    padding: 10px 20px;
+    border-radius:7px;
+    color: white;
+    }
+
+    button{
+    padding: 10px 20px;
+    background: rgb(0, 0, 0);
+    color: #ffffff;
+    border-color: #c9c9c9;
+    font-size: 18px;
+    border-radius:7px;
+    }
+#titulo{
+    text-align: center;
+}
+
+.noExiste{
+    text-align: center;
+}

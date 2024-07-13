@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
 
@@ -14,16 +17,21 @@
         <img src="./img/collageInicio.jpg" alt="">
         
     </div>
+
+    
     <div class="texto">
-        <h1>Generador De Peliculas Aleatorio</h1>
+        <h1>Buscador de Películas y Series</h1>
+        <input type="text" id="titulo" placeholder="Buscar">
     </div>
-    <form>
-        <input type="text" id="nomPeli" placeholder="Titulo Pelicula">
-        <button type="button" id="peliRandom">Pelicula Aleatoria</button>
-    </form>
+
+<div class="botones">
+    <button onclick="fetchMovie()">Buscar</button>
+</div>
+
 
     <div id="generarPeli"></div>
-    
+
+
     <script src="script.js"></script>
 </body>
 </html>
